@@ -1,0 +1,31 @@
+{
+  "name": "rabbit/ldap",
+  "description": "rabbit ldap",
+  "type": "library",
+  "require": {
+    "php": ">=7.4.0",
+    "ext-swoole": ">=4.5.0",
+    "rabbit/base": "dev-master",
+    "rabbit/pool": "dev-master",
+    "freedsx/ldap": "^0.6.0"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "@dev",
+    "phpunit/phpunit": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "albert",
+      "email": "63851587@qq.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/Socket.php"
+    ],
+    "psr-4": {
+      "Rabbit\\Ldap\\": "src/"
+    }
+  }
+}
