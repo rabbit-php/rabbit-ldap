@@ -20,9 +20,6 @@
     }
   ],
   "autoload": {
-    "classmap": [
-      "src/Socket.php"
-    ],
     "psr-4": {
       "Rabbit\\Ldap\\": "src/"
     }
