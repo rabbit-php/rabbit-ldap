@@ -6,7 +6,7 @@
     "php": ">=8.1.0",
     "rabbit/base": "dev-master",
     "rabbit/pool": "dev-master",
-    "freedsx/ldap": "^0.7"
+    "freedsx/ldap": "^0.8"
   },
   "require-dev": {
     "swoole/ide-helper": "@dev",
